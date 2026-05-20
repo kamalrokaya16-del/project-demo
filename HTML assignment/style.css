@@ -1,0 +1,39 @@
+body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 80%;
+      margin: 20px auto;
+    }
+
+    th {
+      background-color: lightgray;
+      border: 1px solid black;
+      padding: 8px 12px;
+      text-align: center;
+    }
+
+    td {
+      border: 1px solid black;
+      padding: 8px 12px;
+      text-align: center;
+    }
+
+    .phone-red   { color: red;   }
+    .phone-green { color: green; }
+    .phone-blue  { color: blue;  }
+
+    td img{
+      width: 100%;
+      height: 100px;
+      object-fit: cover;
+      display: block;
+    }
+
+    td:last-child{
+      padding: 0;
+      width: 120px;
+    }
